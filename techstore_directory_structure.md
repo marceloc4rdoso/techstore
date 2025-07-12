@@ -9,7 +9,7 @@ techstore/
 ├── README.md
 ├── db.sqlite3                        # Banco de dados SQLite
 │
-├── techstore/                        # Configurações principais do projeto
+├── core/                        # Configurações principais do projeto
 │   ├── __init__.py
 │   ├── settings.py                   # Configurações principais
 │   ├── urls.py                       # URLs principais
@@ -141,7 +141,7 @@ techstore/
 │   ├── throttling.py                 # Rate limiting
 │   └── views.py                      # Views gerais da API
 │
-├── core/                             # App para funcionalidades centrais
+├── core_utils/                       # App para funcionalidades centrais
 │   ├── __init__.py
 │   ├── apps.py
 │   ├── models.py                     # Modelos base/abstratos
@@ -149,15 +149,8 @@ techstore/
 │   ├── validators.py                 # Validadores customizados
 │   ├── mixins.py                     # Mixins para views
 │   ├── decorators.py                 # Decoradores personalizados
-│   ├── exceptions.py                 # Exceções personalizadas
-│   └── migrations/
-│       └── __init__.py
+│   └── exceptions.py                 # Exceções personalizadas
 │
-├── fixtures/                         # Dados iniciais para desenvolvimento
-│   ├── categories.json
-│   ├── brands.json
-│   ├── products.json
-│   └── users.json
 │
 ├── scripts/                          # Scripts utilitários
 │   ├── __init__.py
@@ -240,14 +233,13 @@ python manage.py startapp accounts
 python manage.py startapp products
 python manage.py startapp sales
 python manage.py startapp dashboard
-python manage.py startapp core
+python manage.py startapp core_utils
 python manage.py startapp api
 
 # Criar diretórios
 mkdir -p static/{css,js,img}
 mkdir -p media/{products,brands,users}
 mkdir -p templates/{accounts,products,sales,dashboard}
-mkdir -p fixtures scripts tests docs config logs
 ```
 
 ## Níveis de Acesso por Diretório
