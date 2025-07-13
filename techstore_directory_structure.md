@@ -83,3 +83,4 @@ techstore/
 - Visualização de produtos e avaliações
 
 Esta estrutura garante organização, escalabilidade e separação clara de responsabilidades entre os diferentes módulos do sistema.
+#### << Volta https://github.com/marceloc4rdoso/techstore/blob/main/README.md
