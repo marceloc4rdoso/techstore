@@ -23,3 +23,4 @@ Este é um sistema de gestão para a TechStore, uma startup de e-commerce de ele
 ---
 
 ## Estrutura de Diretórios
+https://github.com/marceloc4rdoso/techstore/blob/main/techstore_directory_structure.md
