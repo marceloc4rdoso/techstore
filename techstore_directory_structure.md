@@ -57,7 +57,7 @@ techstore/
 - **`docs/`** - Documentação do projeto
 - **`scripts/`** - Scripts utilitários
 
-## Comandos para Criar a Estrutura
+## Mais alguns detalhes da Estrutura
 
 ```bash
 
